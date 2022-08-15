@@ -6,26 +6,6 @@
   "main": "dist/index.js",
   "module": "dist-esm/src/index.js",
   "browser": {},
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./types/src/index.js",
-      "require": "./dist/index.js",
-      "import": "./dist-esm/src/index.js"
-    },
-    "./client": {
-      "types": "./types/src/client/index.js",
-      "import": "./dist-esm/src/client/index.js"
-    },
-    "./client/*": {
-      "types": "./types/src/client/*.js",
-      "import": "./dist-esm/src/client/*.js"
-    },
-    "./models/*": {
-      "types": "./types/src/models/*.js",
-      "import": "./dist-esm/src/models/*.js"
-    }
-  },
   "//metadata": {
     "constantPaths": [
       {
